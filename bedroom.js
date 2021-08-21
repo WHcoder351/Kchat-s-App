@@ -7,7 +7,7 @@ function setup() {
     canvas = createCanvas(450, 450);
     canvas.center();
     obd = ml5.objectDetector('cocossd', ml);
-    document.getAnimations("stats").innerHTML = "Status = ID-ing Object...";
+    document.getElementById("stats").innerHTML = "Status = ID-ing Object...";
 }
 
 function ml(){
@@ -24,5 +24,5 @@ function gR(error, results){
     }
 }
 function draw() {
-    
+    image(img,0,0,450,450);
 }
