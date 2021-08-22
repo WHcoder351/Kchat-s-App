@@ -1,0 +1,18 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    font-size: 30px;
+}
+.button{
+    border-radius: 15px;
+    width: 55%;
+    font-size: 20px;
+}
+canvas{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 70px;
+}
